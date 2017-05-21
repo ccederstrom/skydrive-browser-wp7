@@ -1,0 +1,15 @@
+﻿<local:SkyDriveFileViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:SkyDriveBrowser.ViewModels" 
+    xmlns:item="clr-namespace:SkyDriveBrowser.SkyDriveModels"
+    SampleProperty="Sample Text Property Value">
+
+    <local:SkyDriveFileViewModel.Items>
+        <item:FileInfo Name="SkyReader" Type="folder" UpdatedTime="January 3, 2012" Id="folder.107bddb754baecc7.107BDDB754BAECC7!11107"/>
+        <item:FileInfo Name="SkyDrive Memo" Type="folder" UpdatedTime="January 3, 2012" Id="folder.107bddb754baecc7.107BDDB754BAECC7!10224"/>
+        <item:FileInfo Name="SkyDrive camera roll" Type="album"  UpdatedTime="January 3, 2012" Id="folder.107bddb754baecc7.107BDDB754BAECC7!171"/>
+        <item:FileInfo Name="photo.jpg" Type="photo" UpdatedTime="January 3, 2012" Id="location"/>
+        <item:FileInfo Name="ebook.epub" Type="file" UpdatedTime="January 3, 2012" Id="location"/>
+    </local:SkyDriveFileViewModel.Items>
+</local:SkyDriveFileViewModel>
